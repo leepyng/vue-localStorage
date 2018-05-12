@@ -4,6 +4,6 @@
 # how to use
 	1.include file to the main.js
 	2.config file with the follow code:
-		import Dao from './common/dao/dao.js'
+		import Dao from './vue-localStorage.js'
 		Vue.prototype.Api=Api;
-		var dao = new Dao.Dao('fenqileDao');
+		var dao = new Dao.Dao('myMoudleDao');
