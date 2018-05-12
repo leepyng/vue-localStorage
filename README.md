@@ -4,7 +4,7 @@
 # how to use
 	1.include file to the project
 
-	2.config file with the follow code:
+	2.config file,main.js, with the follow code :
 		import Dao from './vue-localStorage.js'
 		var dao = new Dao.Dao('myMoudleDao');
 		Vue.prototype.dao=dao;
